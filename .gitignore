@@ -1,2 +1,6 @@
 textutils/__pycache__/*
+file_upload/__pycache__/*
+file_upload/migrations/__pycache__/*
+learning/__pycache__/*
+learning/migrations/__pycache__/*
 media/*
