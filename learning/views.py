@@ -3,4 +3,4 @@ from django.shortcuts import HttpResponse
 
 # Create your views here.
 def home(request):
-    return HttpResponse("Form is Not Valid")
+    return render(request,"index.html")
