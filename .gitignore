@@ -3,5 +3,8 @@ file_upload/__pycache__/*
 file_upload/migrations/__pycache__/*
 learning/__pycache__/*
 learning/migrations/__pycache__/*
+learning/models/__pycache__/*
+learning/views/__pycache__/*
+learning/forms/__pycache__/*
 media/*
 db.sqlite3
