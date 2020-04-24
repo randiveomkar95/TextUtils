@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="container p-3">
+    <form action="{% url 'learning:one_to_many' %}" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="exampleFormControlInput1">First name</label>
+            <input type="text" name="first_name" class="form-control" id="exampleFormControlInput1" placeholder="Archana">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Last name</label>
+            <input type="text" name="last_name" class="form-control" id="exampleFormControlInput1" placeholder="wangade">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Mother Name</label>
+            <input type="text" name="mother" class="form-control" id="exampleFormControlInput1" placeholder="wangade">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </form>
+</div>
+{% endblock %}
