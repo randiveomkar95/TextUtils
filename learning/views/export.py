@@ -2,6 +2,7 @@
 (c) learning 2020
 
 Purpose : Learning one to many relation
+Ideas : https://dev.to/coderasha/how-to-export-import-data-django-package-series-3-39mk
 '''
 import csv
 from datetime import datetime
