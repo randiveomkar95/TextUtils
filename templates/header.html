@@ -4,8 +4,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="/">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'learning:export_csv' %}">Export_CSV</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Export_data
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{% url 'learning:export_csv' %}">Export_CSV</a>
+                  <a class="dropdown-item" href="{% url 'learning:export_data' %}">Export_with_option</a>
+                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="">contact</a>
